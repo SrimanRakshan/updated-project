@@ -1,0 +1,194 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kolker Brush', cursive;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+h2{
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+}
+#content1{
+    font-size: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 250px;
+}
+#content2{
+    font-size: 50px;
+}
+#content2::before{
+    content: "\a";
+    white-space: pre;
+}
+#content3{
+    font-size: 85px;
+    color: #000;
+    display: flex;
+}
+#content4{
+    font-size: 85px;
+    color: #000;
+    font-weight: bold;
+    padding: 0px 725px;
+}
+#content5{
+    font-size: 200px;
+    padding: 0px 250px;
+}
+#content6{
+    font-size: 85px;
+    color: #000;
+    display: flex;
+}
+#content7{
+    font-size: 85px;
+    color: #000;
+    padding: 0px 725px;
+}
+#content8{
+    font-size: 85px;
+    color: #000;
+    padding: 0px 725px;
+}
+#content9{
+    font-size: 85px;
+    color: #000;
+    padding: 0px 725px;
+}
+#content10{
+    font-size: 85px;
+    color: #000;
+    padding: 0px 725px;
+}
+#content11{
+    font-size: 200px;
+    padding: 0px 250px;
+}
+#content12{
+  color: #000;
+  font-size: 200px;
+}
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kolker Brush', cursive;
+}
+.parallax5 .packages {
+    background: #eee;
+  }
+  
+  .parallax5 .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .parallax5 .packages .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #10221b;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+  }
+  
+  .parallax5 .packages .box-container .box:hover {
+    background: #10221b;
+  }
+  
+  .parallax5 .packages .box-container .box:hover .content > * {
+    color: #fff;
+  }
+  
+  .parallax5 .packages .box-container .box:hover .btn {
+    border-color: #fff;
+  }
+  
+  .parallax5 .packages .box-container .box:hover .btn:hover {
+    background: #fff;
+    color: #10221b;
+  }
+  
+  .parallax5 .packages .box-container .box .image {
+    height: 20rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+  }
+  
+  .parallax5 .packages .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .parallax5 .packages .box-container .box .content {
+    padding: 2rem;
+  }
+  
+  .parallax5 .packages .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+  }
+  
+  .parallax5 .packages .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
+  .parallax5 .packages .box-container .box .content .price {
+    font-size: 2rem;
+    color: #219150;
+  }
+h3{
+    font-size: 50px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.79);
+    position: relative;
+}
+div:nth-child(1){
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../img/Kanyakumari.webp");
+    background-size: cover;
+}
+div:nth-child(2){
+    background-color: #f6feff;
+    color: #000;
+
+}
+div:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../Booking/jetski.jpg");
+    background-size: contain;
+}
+div:nth-child(4){
+    background-color: azure;
+    color: #000;
+}
+div:nth-child(5){
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../Booking/hotel.jpg");
+    background-size: cover;
+}
+div:nth-child(6){
+    background-color: azure;
+    color: #000;
+    background-image: none;
+}
+
